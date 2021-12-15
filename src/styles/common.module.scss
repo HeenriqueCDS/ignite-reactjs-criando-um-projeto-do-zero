@@ -1,1 +1,31 @@
-// TODO
+.page{
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 4rem ;
+    padding-bottom: 4rem;
+}
+.pageContent{
+    max-width: 720px;
+    margin: 0 auto;
+}
+.postInformation{
+    display: flex;
+    flex-direction: row;
+    
+    margin-top: 1.25rem;
+        span {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            font-weight: var(--normal);
+            color: var(--info);
+            
+            & + span {
+                 margin-left: 1.5rem;
+            }
+            svg {
+                margin-right: 0.5rem;
+            }
+        }
+}
